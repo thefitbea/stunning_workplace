@@ -1,1 +1,37 @@
 /* CSS Is muscles */
+body{
+    margin: 0px;
+    font-family: Euclidcircularb, sans-serif;
+}
+
+
+#stunning-logo{
+    width: 10%;
+}
+
+#topbar{
+    /* position: fixed;
+    top: 0px; */
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#nav-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items{
+    margin: 10px;
+    text-decoration: none;
+    color: grey;
+}
+
+#custom-bttn{
+    /*  */
+}
