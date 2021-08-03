@@ -1,37 +1,133 @@
 /* CSS Is muscles */
-body{
+body {
     margin: 0px;
     font-family: Euclidcircularb, sans-serif;
 }
 
 
-#stunning-logo{
-    width: 10%;
+#stunning-logo {
+    width: 9%;
+    padding: 3px;
 }
 
-#topbar{
+#topbar {
     /* position: fixed;
     top: 0px; */
+    padding: 30px 27px 30px 27px;
 }
 
-#navbar{
+#navbar {
     display: flex;
     justify-content: space-between;
     width: 100%;
     align-items: center;
 }
 
-#nav-flex{
+#nav-flex {
     display: flex;
     justify-content: space-between;
 }
 
-.nav-items{
-    margin: 10px;
+.nav-items {
+    margin: 25px;
     text-decoration: none;
-    color: grey;
+    color: #C3C2C0;
+    font-weight: 700;
 }
 
-#custom-bttn{
+.nav-items-text {
+    /* display: inline-block;
+    border-bottom: 1px solid black;
+    padding-bottom: 2px; */
+
+}
+
+.nav-items:hover {
+    color: #1F1B17;
+    text-decoration: underline;
+    text-decoration-color: #5E4DC2;
+    text-decoration-thickness: 4px;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+    /* display: inline-block;
+    border-bottom: 1px solid #5E4DC2;
+    padding-bottom: 2px; */
+}
+
+#your-account-btn {
+    margin: 0px 10px;
+    background-color: #FFD8DB;
+    color: #5E4DC2;
+    font-weight: 700;
+    border-radius: 25px;
+    padding: 22px 33px;
+    border-style: none;
+}
+
+#your-account-btn:hover {
+    background-color: #5E4DC2;
+    color: #fff;
+    /* font-size: 1rem; */
+    transition: all 1000ms;
+}
+
+#main {
+    display: flex;
+    justify-content: left;
+}
+
+#caption-section {
+    padding-left: 7%;
+}
+
+#caption-heading {
+    font-size: 6rem;
+}
+
+#caption-dot {
+    color: #5243C0;
+}
+
+#new-sccount-sectiom {
+    display: flex;
+    align-items: center;
+}
+
+#new-account-btn {
+    margin: 0px 17px;
+    /* background-color: #5E4DC2; */
+    background-color: #5243C0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 25px;
+    padding: 22px 33px;
+    border-style: none;
+    box-shadow: 0 5px 5px lightgrey;
+    transition: all 1000ms;
+}
+
+#new-account-btn:hover {
+    background-color: #FFD8DB;
+    color: #5243C0;
+}
+
+.arrow-img {
+    margin: 2%;
+    box-shadow: 0 2px 2px lightgrey;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.arrow-img:hover {
     /*  */
+}
+
+#caption-desc {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+#landing-section {
+    padding-left: 10%;
 }
