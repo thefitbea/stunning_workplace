@@ -81,7 +81,7 @@ body {
 }
 
 #caption-heading {
-    font-size: 6rem;
+    font-size: 3rem;
 }
 
 #caption-dot {
@@ -120,14 +120,128 @@ body {
 }
 
 .arrow-img:hover {
-    /*  */
+    transform: scale(1.15);
 }
 
 #caption-desc {
-    font-size: 1.2rem;
-    line-height: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.7rem;
 }
 
 #landing-section {
     padding-left: 10%;
+}
+
+#user-section {
+    display: block;
+}
+
+.users-data {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #FBFBFB;
+    margin: 5% 2%;
+    height: 38px;
+    font-size: 1.05rem;
+}
+
+.users-data:hover {
+    background-color: white;
+    box-shadow: 0 5px 30px rgb(184, 182, 182);
+}
+
+#tick-normal-1 {
+    position: relative;
+}
+
+#tick-hover-1 {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#user-data-1:hover #tick-hover-1 {
+    display: block;
+}
+
+#tick-normal-2 {
+    position: relative;
+}
+
+#tick-hover-2 {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#user-data-1:hover #tick-hover-2 {
+    display: block;
+}
+
+#tick-normal-3 {
+    position: relative;
+}
+
+#tick-hover-3 {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#user-data-1:hover #tick-hover-3 {
+    display: block;
+}
+
+#tick-normal-4 {
+    position: relative;
+}
+
+#tick-hover-4 {
+    position: absolute;
+    top: 0;
+    display: none;
+}
+
+#user-data-1:hover #tick-hover-4 {
+    display: block;
+}
+
+.user-tick,
+.team-desc {
+    margin: 2px 17px;
+}
+
+.team-date {
+    color: #B5B4B2;
+    padding: 0 20px;
+    letter-spacing: -1px;
+    width: 60px;
+}
+
+.team-desc {
+    width: 150px;
+}
+
+.color-candy-bar {
+    width: 25px;
+    height: 12px;
+    margin: 12px;
+    border-radius: 6px;
+}
+
+#color-candy-bar-pink {
+    background-color: #FED7DA;
+}
+
+#color-candy-bar-red {
+    background-color: #FD6534;
+}
+
+#color-candy-bar-green {
+    background-color: #9ED095;
+}
+
+#color-candy-bar-yellow {
+    background-color: #FFE4A0;
 }
