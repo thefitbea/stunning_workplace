@@ -2,6 +2,7 @@
 body {
     margin: 0px;
     font-family: Euclidcircularb, sans-serif;
+    /* overflow: hidden; */
 }
 
 
@@ -130,25 +131,39 @@ body {
 
 #landing-section {
     padding-left: 10%;
+    transition: 400ms;
+}
+
+#landing-section:hover {
+    transform: scale(0.8);
+    /* transform: skewX(10deg); */
+    transition: 400ms;
 }
 
 #user-section {
     display: block;
+    /* margin-top: 40px; */
 }
 
 .users-data {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    background-color: #FBFBFB;
+    /* background-color: #FBFBFB; */
+    background-color: #F5F5F5;
     margin: 5% 2%;
-    height: 38px;
-    font-size: 1.05rem;
+    height: 49px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    transition: 400ms;
 }
 
 .users-data:hover {
     background-color: white;
-    box-shadow: 0 5px 30px rgb(184, 182, 182);
+    box-shadow: 0 4px 17px rgb(185, 185, 185);
+    /* transform: scale(1.05); */
+    /* transition: 400ms; */
+    /* transform: skewx(3.7deg); */
 }
 
 #tick-normal-1 {
@@ -157,12 +172,27 @@ body {
 
 #tick-hover-1 {
     position: absolute;
-    top: 0;
+    top: 487px;
+    left: 127px;
     display: none;
+    /* transition: 400ms; */
+    /* transition: all 500ms ease; */
+    /* transition-delay: 10s; */
 }
 
 #user-data-1:hover #tick-hover-1 {
     display: block;
+    /* transform: scale(1.05); */
+    /* transition: 400ms; */
+
+    /* transition-delay: 10s; */
+    /* delays for 1 second */
+    /* -webkit-transition-delay: 1s; */
+    /* for Safari & Chrome */
+
+    /* transition: all .4s ease; */
+    /* -webkit-transition: all .4s ease; */
+    /* transition: all 500ms ease; */
 }
 
 #tick-normal-2 {
@@ -171,11 +201,12 @@ body {
 
 #tick-hover-2 {
     position: absolute;
-    top: 0;
+    top: 555px;
+    left: 127px;
     display: none;
 }
 
-#user-data-1:hover #tick-hover-2 {
+#user-data-2:hover #tick-hover-2 {
     display: block;
 }
 
@@ -185,11 +216,12 @@ body {
 
 #tick-hover-3 {
     position: absolute;
-    top: 0;
+    top: 623px;
+    left: 127px;
     display: none;
 }
 
-#user-data-1:hover #tick-hover-3 {
+#user-data-3:hover #tick-hover-3 {
     display: block;
 }
 
@@ -199,17 +231,23 @@ body {
 
 #tick-hover-4 {
     position: absolute;
-    top: 0;
+    top: 694px;
+    left: 127px;
     display: none;
 }
 
-#user-data-1:hover #tick-hover-4 {
+#user-data-4:hover #tick-hover-4 {
     display: block;
+}
+
+.user-pic:hover {
+    /* border-image: linear-gradient(45deg, turquoise, greenyellow) 1; */
+    transform: scale(1.15);
 }
 
 .user-tick,
 .team-desc {
-    margin: 2px 17px;
+    margin: 2px 8px;
 }
 
 .team-date {
@@ -217,6 +255,11 @@ body {
     padding: 0 20px;
     letter-spacing: -1px;
     width: 60px;
+}
+
+.team-date:hover,
+.team-desc:hover {
+    /* transform: skewX(12deg); */
 }
 
 .team-desc {
@@ -228,6 +271,10 @@ body {
     height: 12px;
     margin: 12px;
     border-radius: 6px;
+}
+
+.color-candy-bar:hover {
+    transform: rotate(90deg);
 }
 
 #color-candy-bar-pink {
